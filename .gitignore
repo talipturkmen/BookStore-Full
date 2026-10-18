@@ -3,15 +3,22 @@
 .project
 /.settings/
 
-# Intellij
+# IntelliJ
 .idea/
 *.iml
 *.iws
 
-# Mac
+# Mac / Windows
 .DS_Store
+Thumbs.db
 
 # Maven
 log/
 target/
-/bin/
+bin/
+*.class
+
+# Node / Angular
+node_modules/
+dist/
+/tmp
